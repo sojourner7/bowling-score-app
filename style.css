@@ -1,0 +1,71 @@
+.header {
+    color:#ffffff;
+    background-color:#000;
+    padding:10px;
+    margin-top:0px;
+}
+.scorecard {
+    display:flex;
+    height:100px;
+}
+.frame {
+    width:100px;
+    background-color:#ffffff;
+    border:1px solid #333;
+}
+.frame p {
+    text-align:center;
+    width:auto;
+    margin:0;
+    padding:2px;
+    background-color: rgb(80, 80, 80);
+    color:#fff;
+}
+.scores {
+    display:flex;
+    justify-content: flex-end;
+}
+.ball {
+    width:25px;
+    height:17px;
+    border:1px solid #333;
+    border-top:0;
+    border-right:0;
+    text-align:center;
+    padding:5px;
+}
+div.ball:first-child {
+    border: 0;
+}
+#ballbuttons {
+    margin-bottom:10px;
+}
+#controlpanel {
+ padding: 5px 0px;
+}
+.btnPins {
+ background-color: #333;
+ color:#fff;
+ /*padding:5px;*/
+ width:30px;
+ height:30px;
+ cursor:pointer;
+ box-shadow: none;
+ border:0;
+}
+.btnPins:hover {
+    background-color: rgb(78, 78, 78);
+}
+.frametotal {
+    display:flex;
+    justify-content: center;
+    width:auto;
+}
+.frametotal span {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .active {
+      background-color:#b2ff5f;
+  }
